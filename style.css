@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #363d5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 15px;
+    height: 15px;
+    background: #151529;
+    margin: 3px;
+    box-shadow: 0 0 2px #000000;
+    transition: 2s;
+}
+.box:hover{
+    transition-duration: 0s;
+}
